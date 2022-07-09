@@ -3,7 +3,7 @@ const Banner = () => {
   return (
     <section className="py-32 md:py-52 2xl:h-[80vh] px-6 bg-[#98ddee] ">
       <div className="flex justify-center items-center gap-16 flex-wrap-reverse md:w-[90%] mx-auto">
-        <div className="flex flex-col items-center lg:items-start gap-8 lg:w-[47%] mx-auto w-full lg:text-left text-center">
+        <div className="flex flex-col items-center custom:items-start gap-8  custom:w-[47%] mx-auto w-full custom:text-left text-center">
           <h2 className="text-[2.5rem] leading-[2.9rem] font-semibold text-orange">
             A no-bullshit job alert.
             <br /> Delivered straight to your inbox
@@ -17,8 +17,8 @@ const Banner = () => {
             Upload Resume
           </button>
         </div>
-        <div className="flex justify-center items-center lg:w-[47%] mx-auto w-full">
-          <img src={Boy} alt="boy" />
+        <div className="flex justify-center items-center custom:w-[47%] mx-auto w-full">
+          <img src={Boy} alt="boy" className="w-full md:w-[70%]" />
         </div>
       </div>
     </section>

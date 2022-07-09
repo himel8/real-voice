@@ -6,7 +6,7 @@ const FeatureCard = ({ data }) => {
   return (
     <div className="w-[22rem] h-full">
       <div className="bg-featureBg object-cover bg-no-repeat text-center bg-center bg-cover">
-        <img src={img} alt={title} className="inline" />
+        <img src={img} alt={title} className="inline w-full" />
       </div>
       <div className="flex flex-col gap-6 py-12 px-8 border border-[#d5d9da] rounded-br-sm rounded-bl-sm">
         <div className="flex justify-between items-center">
