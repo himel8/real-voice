@@ -2,10 +2,10 @@ import RadioInput from "./RadioInput";
 
 const SearchForm = () => {
   return (
-    <section className="bg-[#e6eaec] h-full 2xl:h-[20vh] py-16">
+    <section className="bg-[#e6eaec] custom900:mx-16 py-4 sm:py-0">
       <form
         action=""
-        className="w-[98%] sm:w-[90%] mx-auto flex justify-center items-center gap-8 flex-wrap"
+        className="flex justify-center items-center gap-16 flex-wrap pr-[1px]"
       >
         <div className="flex justify-center items-center gap-4 flex-col sm:flex-row">
           <input

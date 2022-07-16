@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: "'Poppins', sans-serif",
+        secondary: "ink-free",
       },
       colors: {
         orange: "#ea5e11",
@@ -26,6 +27,8 @@ module.exports = {
       },
       screens: {
         custom: "1233px",
+        custom900: "900px",
+        custo1746: "1354px",
       },
     },
   },

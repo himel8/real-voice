@@ -1,22 +1,10 @@
 import React from "react";
-import { BsEnvelopeFill, BsGlobe, BsTelephoneFill } from "react-icons/bs";
+
 const Footer = () => {
   return (
-    <footer className="py-12 flex flex-col items-center gap-4 bg-[#e6eaec]">
-      <div className="flex justify-center items-center gap-10">
-        <a href="https://www.realvoice.com" target="_blank" rel="noreferrer">
-          <BsGlobe className="text-2xl text-orange" />
-        </a>
-        <a href="tel:901-609-300">
-          <BsTelephoneFill className="text-2xl text-orange" />
-        </a>
-        <a href="mailto:hr@realvoice.com">
-          <BsEnvelopeFill className="text-2xl text-orange" />
-        </a>
-      </div>
-      <p className="text-sm px-4 text-center">
-        Real voice © 2022, All Right Reserved - by{" "}
-        <span className=" font-medium text-orange">Real voice</span>
+    <footer className="bg-[#575657] mt-6 pt-8 pb-1 gap-6 lg:w-[65%] md:w-[80%] w-full mx-auto">
+      <p className="text-xl text-white capitalize font-[200] pb-2 text-center">
+        @ Copyright 2022 RealVoice. All Rights Reserved
       </p>
     </footer>
   );

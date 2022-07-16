@@ -1,20 +1,23 @@
 import Banner from "../Components/Home/Banner";
 import Categories from "../Components/Home/Categories";
-import Features from "../Components/Home/Features";
 import Footer from "../Components/Home/Footer";
-import NavBar from "../Components/Home/NavBar";
-import SearchForm from "../Components/Home/SearchForm";
+import FooterBanner from "../Components/Home/FooterBanner";
+import Header from "../Components/Home/Header";
+import Social from "../Components/Home/Social";
 import Work from "../Components/Home/Work";
 
 const Home = () => {
   return (
-    <div>
-      <NavBar />
+    <div className="relative">
+      {/* <NavBar /> */}
+      <Social />
+      <Header />
       <Banner />
-      <SearchForm />
+      {/* <SearchForm /> */}
       <Work />
       <Categories />
-      <Features />
+      {/* <Features /> */}
+      <FooterBanner />
       <Footer />
     </div>
   );
