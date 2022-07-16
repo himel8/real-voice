@@ -3,7 +3,7 @@ import Footer from "../../assets/images/FooterLogo.png";
 
 const FooterBanner = () => {
   return (
-    <section className="bg-[#575657] p-12 flex justify-center gap-6 lg:w-[65%] md:w-[80%] w-full mx-auto items-center xl:items-start flex-wrap md:flex-nowrap -mt-24">
+    <section className="bg-[#575657] p-12 flex justify-center gap-6 w-full mx-auto items-center flex-wrap md:flex-nowrap -mt-24">
       <div className=" flex items-center w-full md:w-1/2 justify-center md:justify-end">
         <img src={Footer} alt="" className="w-[28rem]" />
       </div>

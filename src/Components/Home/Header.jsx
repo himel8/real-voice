@@ -1,12 +1,13 @@
 import React from "react";
 import Logo from "../../assets/images/logo.png";
+import Social from "./Social";
 
 const Header = () => {
   return (
     <header className="py-8 relative w-[97%] mx-auto flex justify-center">
       <a
         href="#!"
-        className="text-orange font-primary text-2xl capitalize font-medium absolute right-0 top-3"
+        className="text-white border-2 border-orange rounded-full px-6 py-2 bg-orange hover:bg-white hover:text-orange font-primary text-2xl capitalize font-medium absolute right-0 top-3"
       >
         jobs
       </a>
@@ -17,6 +18,8 @@ const Header = () => {
           career center
         </p>
       </div>
+
+      <Social />
     </header>
   );
 };

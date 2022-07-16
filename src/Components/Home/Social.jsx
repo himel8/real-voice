@@ -3,7 +3,7 @@ import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 const Social = () => {
   return (
-    <div className="fixed left-6 bg-orange py-2 px-2 top-1/2 z-10">
+    <div className="absolute left-6 bg-orange py-2 px-2 top-1/2 z-10 translate-y-[-50%]">
       <a href="#!">
         <FaFacebookF className="text-3xl text-white my-9 mx-3" />
       </a>

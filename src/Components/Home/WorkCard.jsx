@@ -16,7 +16,7 @@ const WorkCard = ({ data }) => {
           {icon === "apply" && <JobApplySvg width={100} />}
         </div>
       </div>
-      <h3 className="text-2xl font-medium text-title mt-10">
+      <h3 className="text-2xl font-medium text-title mt-10 uppercase">
         {`${id}. ${title}`}
       </h3>
       <p className="text-lg text-normal w-[22rem] text-center">{desc}</p>

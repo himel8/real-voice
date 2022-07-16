@@ -20,16 +20,12 @@ const Categories = () => {
           <Title
             title="Job Categories"
             subTitle="Start your search by using any of the following job categories"
+            showBullet={true}
           />
           <div className="flex justify-center items-center gap-12 mt-6 flex-wrap">
             {data.map((data, index) => (
               <CategoryCard key={index} data={data} />
             ))}
-          </div>
-          <div className="text-center mt-16">
-            <button className="bg-button py-6 px-10 rounded-full text-white text-2xl font-medium hover:bg-orange transform transition-colors ease-in-out duration-300 capitalize border-4 border-white">
-              Browse all section
-            </button>
           </div>
         </div>
       </div>

@@ -48,8 +48,8 @@ const RadioInput = () => {
           </label>
         </div>
       </div>
-      <button className="bg-orange border border-orange py-4 px-8 rounded-md text-white text-lg font-medium hover:bg-white transform transition-colors ease-in-out duration-300 hover:text-orange">
-        Upload Resume
+      <button className="bg-orange border uppercase border-orange py-4 px-16 rounded-md text-white text-lg font-medium hover:bg-white transform transition-colors ease-in-out duration-300 hover:text-orange">
+        let's go
       </button>
     </div>
   );
